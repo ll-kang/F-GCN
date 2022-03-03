@@ -11,7 +11,7 @@ data_name = 'IP'
 Data = load_HSI_data(data_name)
 site1=Data['zuobiao']
 # scio.savemat('site1', {'site1': site1})
-std=3
+std=3.1
 class fuzzyimage(object):
     def __init__(self,img):
         self.img=img
